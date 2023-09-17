@@ -66,6 +66,17 @@ func TestCreateTask(t *testing.T) {
 				Description: "test descrption 1",
 			},
 		},
+		{
+			name: "test2",
+			input: args{
+				Title:       "test title 2",
+				Description: "test descrption 2",
+			},
+			expect: expect{
+				Title:       "test title 2",
+				Description: "test descrption 2",
+			},
+		},
 	}
 
 	for _, test := range tests {
