@@ -1,4 +1,4 @@
-module github.com/yoshihiro-shu/examples/grpc/todo-lit
+module github.com/yoshihiro-shu/examples/grpc/todo-list
 
 go 1.21.1
 
