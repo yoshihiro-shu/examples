@@ -28,3 +28,18 @@ service greet-api {
 ```zsh
 goctl api go -api api/helloworld.api -dir .
 ```
+
+## Serverの起動
+
+```zsh
+go run ./greet/greet.go -f etc/greet-api.yaml
+```
+
+## Request
+
+Open the other Terminal
+
+```zsh
+curl -i http://localhost:8888/greet/from/you
+```
+
