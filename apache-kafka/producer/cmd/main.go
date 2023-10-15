@@ -44,7 +44,7 @@ func main() {
 	}
 	defer producer.Close()
 
-	log.Printf("==> start producing %#v", producer)
+	log.Printf("==> start producing %#v\n", producer)
 	log.Printf("==> status of producing %#v", producer.TxnStatus())
 
 	topic := "news"
