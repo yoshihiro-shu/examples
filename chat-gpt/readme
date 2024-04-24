@@ -1,0 +1,13 @@
+# langchain practice
+
+## crete virtual env
+
+```zsh
+python3 -m venv venv
+```
+
+## start virtual env
+
+```zsh
+source venv/bin/activate
+```
